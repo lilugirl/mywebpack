@@ -1,0 +1,29 @@
+{
+  "name": "mywebpack",
+  "version": "1.0.0",
+  "description": "徒手写一个类似webpack的项目打包器",
+  "main": "bundler.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilugirl/mywebpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilugirl/mywebpack/issues"
+  },
+  "homepage": "https://github.com/lilugirl/mywebpack#readme",
+  "dependencies": {
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "fs": "0.0.1-security",
+    "js-beautify": "^1.9.1",
+    "path": "^0.12.7"
+  }
+}
